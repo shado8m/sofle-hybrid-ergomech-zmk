@@ -1,10 +1,10 @@
 layout: {zmk_keyboard: sofle_ergomech}
 layers:
-  default: [ESC, '!', '@', '#', $, $, ^, '&', '*', (, ), BACKSPACE, TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, LEFT SHIFT, A, S, D, F, G, H, J, K, L, ;, RIGHT SHIFT,
-    LCTRL, Z, X, C, V, B, N, M, ',', ., /, RIGHT CONTROL, AC ZOOM, LGUI, LALT, LCTRL, lower, RET, SPACE, raise, RCTRL, RALT, RGUI, PRINTSCREEN, RIGHT, UP ARROW, LEFT
-      ARROW, DOWN ARROW]
+  default: [ESC, '!', '@', '#', $, '%', ^, '&', '*', (, ), DEL, TAB, Q, W, E, R, T, Y, U, I, O, P, \, LEFT SHIFT, A, S, D, F, G, H, J, K, L, ;, RIGHT SHIFT, ENTER,
+    Z, X, C, V, B, N, M, ',', ., /, ENTER, AC ZOOM, LGUI, LALT, LCTRL, lower, SPACE, SPACE, raise, RCTRL, RALT, RGUI, PRINTSCREEN, RIGHT, UP ARROW, LEFT ARROW, DOWN
+      ARROW]
   lower:
-  - '&studio_unlock'
+  - PRINTSCREEN
   - F1
   - F2
   - F3
@@ -13,9 +13,9 @@ layers:
   - F6
   - F7
   - F8
-  - F9
-  - F10
-  - F11
+  - '['
+  - ']'
+  - BACKSPACE
   - '`'
   - '1'
   - '2'
@@ -28,7 +28,7 @@ layers:
   - '9'
   - '0'
   - F12
-  - {t: ▽, type: trans}
+  - CAPS
   - '!'
   - '@'
   - '#'
@@ -53,16 +53,16 @@ layers:
   - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&bootloader'
+  - '&studio_unlock'
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&studio_unlock'
+  - '&bootloader'
   - A
   - END
   - PAGE UP
@@ -80,7 +80,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BACKSPACE
   - {t: ▽, type: trans}
   - INS
   - PSCRN
@@ -103,8 +103,8 @@ layers:
   - LEFT
   - DOWN
   - RIGHT
-  - DEL
-  - BSPC
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - UNDO
   - CUT
@@ -118,16 +118,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&bootloader'
+  - '&studio_unlock'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&studio_unlock'
+  - '&bootloader'
   - A
   - B
   - C
