@@ -81,8 +81,8 @@
             bindings = <
 &kp PRINTSCREEN  &kp GRAVE    &kp UNDER       &kp TILDE          &trans  &trans  &trans  &trans   &trans       &kp K_CALC      &kp PRINTSCREEN  &kp BACKSPACE
 &kp QUESTION     &kp SLASH    &kp PIPE        &kp BACKSLASH      &trans  &trans  &trans  &trans   &trans       &trans          &trans           &trans
-&kp CAPS         &kp SEMI     &kp COLON       &kp DOUBLE_QUOTES  &trans  &trans  &trans  &trans   &trans       &trans          &trans           &trans
-&kp EXCLAMATION  &kp COMMA    &kp PERIOD      &kp SINGLE_QUOTE   &trans  &trans  &trans  &trans   &trans       &trans          &trans           &trans
+&kp EXCLAMATION  &kp SEMI     &kp COLON       &kp DOUBLE_QUOTES  &trans  &trans  &trans  &trans   &trans       &trans          &trans           &trans
+&kp CAPS         &kp COMMA    &kp PERIOD      &kp SINGLE_QUOTE   &trans  &trans  &trans  &trans   &trans       &trans          &trans           &trans
 &kp K_MUTE       &bootloader  &studio_unlock  &trans             &trans  &trans  &trans  &trans   &trans       &studio_unlock  &bootloader
                                                                                  &kp A   &kp END  &kp PAGE_UP  &kp HOME        &kp PAGE_DOWN
             >;
